@@ -1,0 +1,14 @@
+with Block
+A with block can be used to open a file:
+
+with open(path_to_file) as f:
+    # do something with f (the file) here
+
+The with block will automatically close the file when the block is exited, cleaning up resources.
+
+.read() Method
+You can use the .read() method to read the contents of a file into a string:
+
+# f is a file object
+file_contents = f.read()
+
